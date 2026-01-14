@@ -2,7 +2,7 @@
     width: 100px;
     height: 100px;
     margin: 20px;
-    background-color: lightblue;
+    background-color: rgb(144, 170, 179);
     text-align: center;
     line-height: 100px;
 }
@@ -15,19 +15,19 @@
 
 /* Apply FOUR CSS transforms in total to make the boxes visually distinct and interesting. You can use scale, translate, rotate, and skew or even combine them. */
 
-.box1 {
+#box, #ind_box1 {
     transform: scale(1.5);
 }
 
-.box2 {
+#box2, #ind_box2 {
     transform: translateX(50px) translateY(20px);
 }
 
-.box3 {
+#box3, #ind_box3 {
     transform: rotate(45deg);
 }
 
-.box4 {
+#box4 {
     transform: skew(20deg, 10deg);
 }
 
